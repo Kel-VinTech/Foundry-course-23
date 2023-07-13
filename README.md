@@ -15,3 +15,6 @@ Note: use "--mt" when you want to run test on a single function
 
 
 -- 3 methods for working with a test
+- Act
+- Arrange
+- 
