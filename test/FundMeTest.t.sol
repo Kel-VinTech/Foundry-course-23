@@ -68,5 +68,8 @@ contract FundMeTest is Test {
     function testWithDrawWithSingleOwner() public funded {
         //Arrange
         uint256 startingOwnerBalance = fundMe.getOwner().balance;
+        uint256 startingFundMeBalance = address(fundMe).balance();
+
+        //Act
     }
 }
