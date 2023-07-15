@@ -75,5 +75,12 @@ contract FundMeTest is Test {
         fundMe.withdraw();
 
         //Assert
+        uint256 endingOwnerBlalnce = fundMe.getOwner().balance;
+        uint256 endingFundMeBalance = address(fundMe).balance;
+        assertEq(endingFundMeBalance, 0);
+        assertEq(
+            startingFundMeBalance + startingOwnerBalance,
+            endingOwnerBlalnce
+        );
     }
 }
