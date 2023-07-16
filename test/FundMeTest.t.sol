@@ -25,7 +25,7 @@ contract FundMeTest is Test {
     }
 
     function testOwnerIsSender() public {
-        assertEq(fundMe.i_owner(), msg.sender);
+        assertEq(fundMe.getOwner(), msg.sender);
     }
 
     function testGetVersionisAccurate() public {
@@ -68,7 +68,7 @@ contract FundMeTest is Test {
     function testWithDrawWithSingleOwner() public funded {
         //Arrange
         uint256 startingOwnerBalance = fundMe.getOwner().balance;
-        uint256 startingFundMeBalance = address(fundMe).balance();
+        uint256 startingFundMeBalance = address(fundMe).balance;
 
         //Act
         vm.prank(fundMe.getOwner());
