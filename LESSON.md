@@ -37,3 +37,5 @@ Note:
 --MakeFiles
 
 it allows us to create shortcuts for commands that we are going to commonly use
+you can add different commands to it for example
+"make build"
