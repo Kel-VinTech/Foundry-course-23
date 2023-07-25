@@ -30,7 +30,7 @@ we can use "forge inspect" to check our storage
 we can also use "cast storage"
 
 Note: 
-- immutable variables are not saved in storage and hey have the (i_)
+- immutable variables are not saved in storage and they have the (i_)
 - storage variable have the (s_)
 
 
