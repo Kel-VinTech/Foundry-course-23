@@ -25,6 +25,9 @@ use "forge snapshot" to check the gas fee for a function
 Note: one way we can actually reduce gas fee is by storage
 
 
+--coverage
+we can also use cast coverage to check the percentage of test we have written
+
 --storage
 we can use "forge inspect" to check our storage
 we can also use "cast storage"
