@@ -12,6 +12,7 @@ we have different type of testing
 it is like a fake contract
 
 Note: use "--mt" when you want to run test on a single function
+"forge test -mt (test name)"
 
 
 -- 3 methods for working with a test
