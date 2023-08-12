@@ -37,6 +37,8 @@ Note:
 - immutable variables are not saved in storage and they have the (i_)
 - storage variable have the (s_)
 
+we use these values because it helps us reduce gas cost.
+
 
 --MakeFiles
 
