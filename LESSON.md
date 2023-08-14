@@ -46,3 +46,6 @@ it allows us to create shortcuts for commands that we are going to commonly use
 you can add different commands to it for example
 "make build"
 "make forge and many more"
+
+always remember that when you write a test you should always have the setUp function
+and the Script function always takes the RunUp function
